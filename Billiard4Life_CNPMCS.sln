@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billiard4Life_CNPMCS", "Billiard4Life_CNPMCS\Billiard4Life_CNPMCS.csproj", "{6BEE97CE-1425-4D1F-BE1D-8F22FC3240BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BEE97CE-1425-4D1F-BE1D-8F22FC3240BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEE97CE-1425-4D1F-BE1D-8F22FC3240BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEE97CE-1425-4D1F-BE1D-8F22FC3240BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEE97CE-1425-4D1F-BE1D-8F22FC3240BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C1C3B21-B755-49D1-9B14-DF93245C8549}
+	EndGlobalSection
+EndGlobal
