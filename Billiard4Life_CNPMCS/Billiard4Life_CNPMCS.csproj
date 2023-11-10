@@ -87,7 +87,9 @@
     </Compile>
     <Compile Include="DataProvider\DBConnection.cs" />
     <Compile Include="State\Navigator\INavigator.cs" />
+    <Compile Include="State\Navigator\Navigator.cs" />
     <Compile Include="State\ObservableObject.cs" />
+    <Compile Include="State\ViewAuthorization.cs" />
     <Compile Include="UserControlRS\EmployeeNavigator.xaml.cs">
       <DependentUpon>EmployeeNavigator.xaml</DependentUpon>
     </Compile>

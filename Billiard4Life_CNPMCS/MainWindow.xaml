@@ -3,18 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:uc="clr-namespace:Billiard4Life_CNPMCS.UserControlRS"
-        xmlns:vm="clr-namespace:Billiard4Life_CNPMCS.ViewModel"
-        xmlns:local="clr-namespace:Billiard4Life_CNPMCS"
-        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp" 
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         mc:Ignorable="d"
         x:Name="Window"
         TextElement.FontFamily="Comfortaa"
         Title="Restaurant Management" Height="820" Width="1360" WindowStartupLocation="CenterScreen" WindowStyle="None"
         AllowsTransparency="True" Background="Transparent"
-        DataContext="{DynamicResource MainVM}"
-        Style="{StaticResource Font}">
+        DataContext="{DynamicResource MainVM}">
     <i:Interaction.Triggers>
         <i:EventTrigger EventName="Loaded" >
             <i:InvokeCommandAction Command="{Binding LoadWindowCommand }"  CommandParameter="{Binding ElementName=Window}"/>
@@ -65,8 +62,7 @@
                     </Grid.RowDefinitions>
                     <!--logo-->
                     <StackPanel Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Center" >
-                        <Image Source="pack://application:,,,/images/logo.png" Width="150" Height="150" />
-                        <TextBlock Foreground="#EAE7B1" TextAlignment="Center"  FontSize="20">Ninres RM</TextBlock>
+                        <TextBlock Foreground="#EAE7B1" TextAlignment="Center"  FontSize="20">Billiard4Life</TextBlock>
                     </StackPanel>
                     <uc:EmployeeNavigator Grid.Row="1" DataContext="{Binding Navigator}" Visibility="{Binding EmployeeView}"/>
                     <uc:Navigator Grid.Row="1" DataContext="{Binding Navigator}" Visibility="{Binding AdminView}"/>
